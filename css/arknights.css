@@ -279,6 +279,7 @@ aside footer {
 }
 #logo {
   user-select: none;
+  pointer-events: none;
   width: 100%;
   height: 5px;
   display: inline-block;
@@ -2464,6 +2465,8 @@ article .recent-excerpt p {
   border-color: var(--theme-unimportant);
 }
 .recent-post img {
+  user-select: none;
+  pointer-events: none;
   width: 100%;
 }
 .recent-post h1 {
@@ -2911,6 +2914,8 @@ table .code {
   min-height: calc(100vh - 20px);
 }
 #post-bg img {
+  user-select: none;
+  pointer-events: none;
   max-width: 100%;
 }
 #post-title {
@@ -3021,6 +3026,8 @@ table .code {
   padding-right: 10px;
 }
 #reward img {
+  user-select: none;
+  pointer-events: none;
   width: 80%;
   max-width: 280px;
   padding: 0 20px;
